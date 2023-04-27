@@ -43,7 +43,7 @@ const Cart = props => {
                     <div>
                         <h2>{item.name}</h2>
                         <div className={classes.summary}>
-                            <span className={classes.price}>₹{item.price}</span>
+                            <span className={classes.price}>${item.price}</span>
                             <span className={classes.quantity}>x {item.quantity}</span>
                         </div>
                     </div>
